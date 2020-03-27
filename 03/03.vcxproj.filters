@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="1. Copy Constructor with char Array">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="3. Vector Class w Operator Overloading">
+      <UniqueIdentifier>{3cdbd930-24a9-4da7-a88c-75dfe4614435}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="CopyConstructorExample.cpp">
+      <Filter>1. Copy Constructor with char Array</Filter>
+    </ClCompile>
+    <ClCompile Include="String.cpp">
+      <Filter>1. Copy Constructor with char Array</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2.cpp">
+      <Filter>3. Vector Class w Operator Overloading</Filter>
+    </ClCompile>
+    <ClCompile Include="OperatorOverloadExample.cpp">
+      <Filter>3. Vector Class w Operator Overloading</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CopyConstructorExample.h">
+      <Filter>1. Copy Constructor with char Array</Filter>
+    </ClInclude>
+    <ClInclude Include="String.h">
+      <Filter>1. Copy Constructor with char Array</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>3. Vector Class w Operator Overloading</Filter>
+    </ClInclude>
+    <ClInclude Include="OperatorOverloadExample.h">
+      <Filter>3. Vector Class w Operator Overloading</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
